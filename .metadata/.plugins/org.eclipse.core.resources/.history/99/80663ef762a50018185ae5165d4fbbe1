@@ -1,0 +1,21 @@
+#include 'protheus.ch'
+#include 'parmtype.ch'
+//Variável declarada(global) fora do corpo da funçao pode ser acessada de qualquer parte do fonte
+Static cStat := ''
+
+user function ESCOPO1()
+	//Variaveis Locais
+	Local nVar0 := 1
+	Local nVar1 := 20
+	//Variavel Privada
+	Private cPri := 'private!'
+
+	//Variavel Publlic
+	Public __cPublic := 'Cuso Advpl'
+
+	//Chamada da Função Estática
+
+
+
+
+return
